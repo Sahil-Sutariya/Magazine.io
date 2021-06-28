@@ -1,0 +1,452 @@
+/*Title of the Magazine or Page*/
+h1{
+	color: #884EA0;
+	font-size: 6.89em;
+	margin: 0;
+	padding: 15px 40px;
+	display: inline-block;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Cinzel', serif;
+}
+
+/*Body properties*/
+body{
+	background-size: 880px 450px; 
+	background-repeat: no-repeat;
+}
+
+/*Adding border to the Magazine*/
+.border { border-width: 25px; border-color: red; border-style: solid; }
+
+/*Adjusting the title of the Magazine*/
+.title {
+  position: absolute;
+  top: 8px;
+  left: 305px;
+}
+
+/*Adding Barcode and its Properties*/
+#barcode{
+  background-color: white;
+  height:80px;
+  width: 25%;
+  font-family: 'Libre Barcode 39';font-size: 50px;
+  position: absolute;
+  top: 1055px;
+  left: 700px; 
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/*Price and its Properties*/
+#price{
+  position: absolute;
+  top: 1020px;
+  left: 720px;
+  color: #FFF8DC ;
+}
+
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 115px 0px;
+  color: #4A235A;
+  font-size: 1.49em;
+}
+
+.center-left{
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 200px 0px;
+  font-size: 1.49em;
+  color: #4A235A;
+}
+
+.center-bottom-left1{
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 500px 54px;
+  font-size: 1.15em;
+}
+
+.center-bottom-left2{
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 510px 41px;
+  font-size: 1.89em;
+  font-family: 'Inter', sans-serif;
+  color: #A6ACAF;
+}
+
+.center-bottom-left3{
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 560px 85px;
+  font-size: 1.15em;
+}
+
+.center-bottom-left4{
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 550px 0px;
+  font-size: 2.50em;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color: #2E86C1;
+}
+
+.center-bottom-left5{
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 555px 60px;
+  font-size: 2.50em;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Lobster', cursive;
+  color: #E74C3C;
+}
+
+.checkbox1{
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 650px 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.15em;
+  color: #1C2833;
+  font-weight: 1000;
+}
+
+.checkbox2{
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 670px 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.15em;
+  color: #1C2833;
+  font-weight: 1000;
+}
+
+.checkbox3{
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 690px 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.15em;
+  color: #1C2833;
+  font-weight: 1000;
+}
+
+.checkbox4{
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 710px 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.15em;
+  color: #1C2833;
+  font-weight: 1000;
+}
+
+#plus{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Caveat', cursive;
+  font-weight: 1000;
+  font-size: 2.99em;
+  color: #D35400 ;
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 810px 0px;
+}
+
+.bottom-left1{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.15em;
+  color: #1C2833;
+  font-weight: 1000;
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 905px 0px;
+}
+
+.bottom-left2{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.15em;
+  color: #1C2833;
+  font-weight: 1000;
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 925px 0px;
+}
+
+.bottom-left{
+  font-family: 'Caveat', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.01em;
+  color: black;
+  font-weight: 1000;
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 1065px 0px;
+}
+
+.bottom-right1{
+  font-family: 'Caveat', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Teko', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 1000;
+  font-size: 3.95em;
+  color: #3498DB ;
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 760px 250px;
+}
+
+.bottom-right2{
+  font-family: 'Caveat', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Teko', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 1000;
+  font-size: 3.95em;
+  color: #3498DB ;
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 820px 295px;
+}
+
+.top-right1{
+  font-family: 'Caveat', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Teko', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.35em;
+  color: #DC7633;
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 200px 409px;
+}
+
+.top-right2{
+  font-family: 'Caveat', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Teko', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.35em;
+  color: #00FF00;
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 230px 372px;
+}
+
+.top-right3{
+  font-family: 'Caveat', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Teko', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.35em;
+  color: #76448A;
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 260px 389px;
+}
+
+.top-right4{
+  font-family: 'Caveat', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Teko', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.35em;
+  color: #00FFFF;
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 290px 372px;
+}
+
+.top-right5{
+  font-family: 'Caveat', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Teko', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.35em;
+  color: #0000FF;
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 320px 386px;
+}
+
+.top-right6{
+  font-family: 'Caveat', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Teko', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.35em;
+  color: #008000;
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 350px 376px;
+}
+
+.top-right7{
+  font-family: 'Caveat', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Teko', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.35em;
+  color: #FFFF00;
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 380px 355px;
+}
+
+.top-right8{
+  font-family: 'Caveat', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Teko', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.35em;
+  color: #FF00FF;
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 410px 371px;
+}
+
+.top-right {
+  font-family: 'Caveat', cursive;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Teko', sans-serif;
+  font-family: 'Marck Script', cursive;
+  font-size: 3.95em;
+  color: #48C9B0;
+  position: absolute;
+  top: 8px;
+  left: 360px;
+  padding: 480px 420px;
+}
+
+/*Adding Different icons of Different Social Media*/
+.fa {
+  padding: 20px;
+  font-size: 25px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 65%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/*Facebook*/
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  position: absolute;
+  top: 995px;
+  left: 360px;
+}
+
+/*Twitter*/
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  position: absolute;
+  top: 995px;
+  left: 425px;
+}
+
+/*Instagram*/
+.fa-instagram {
+  background: #211D70;
+  color: white;
+  position: absolute;
+  top: 995px;
+  left: 490px;
+}
+
+/*Youtube*/
+.fa-youtube {
+  background: #C0392B;
+  color: white;
+  position: absolute;
+  top: 995px;
+  left: 555px;
+}
+
+/*Google*/
+.fa-google {
+  background: #E74C3C;
+  color: white;
+  position: absolute;
+  top: 995px;
+  left: 620px;
+}
